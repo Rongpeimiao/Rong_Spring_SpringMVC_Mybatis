@@ -7,9 +7,9 @@
 <title>登陆</title>
 </head>
 <body>
-	<form method="post">
-		用户名：<input type="text" name="user.userCode" value="admin"><br> 
-		密码：<input type="text" name="user.password" value="123"><br>
+	<form method="post" action="login_index">
+		用户名：<input type="text" name="userCode" value="admin"><br> 
+		密码：<input type="text" name="password" value="123"><br>
 		<input type="submit" value="登陆">
 	</form>
 </body>

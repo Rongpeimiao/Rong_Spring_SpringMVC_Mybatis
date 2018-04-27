@@ -7,6 +7,6 @@
 <title>主页</title>
 </head>
 <body>
-主页
+ <a href="seveUser" target="add" >增加用户</a>
 </body>
 </html>
