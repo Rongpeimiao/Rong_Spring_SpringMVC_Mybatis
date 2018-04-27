@@ -2,7 +2,7 @@ package com.rong.ssm.login.entity;
 
 public class UserDTO {
 	private Integer id;
-	private String userName;
+	private String userCode;
 	private String password;
 
 	public Integer getId() {
@@ -13,12 +13,12 @@ public class UserDTO {
 		this.id = id;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getUserCode() {
+		return userCode;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUserCode(String userCode) {
+		this.userCode = userCode;
 	}
 
 	public String getPassword() {
@@ -31,6 +31,6 @@ public class UserDTO {
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", userName=" + userName + ", password=" + password + "]";
+		return "User [id=" + id + ", userCode=" + userCode + ", password=" + password + "]";
 	}
 }

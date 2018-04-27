@@ -21,12 +21,11 @@ public class LoginController {
 	@RequestMapping(method = RequestMethod.POST)
 	public String post(UserDTO user) {
 	    //用来处理用户的登陆请求 
-	    /*if (loginService.login(user.getUserName(), user.getPassword())==1){ 
+	    if (loginService.login(user.getUserCode(), user.getPassword())==1){ 
 		    return "login_success"; //登陆成功，跳转到login_success.jsp页面
 		} else{
-		return "login";// 返回指向login.jsp页面
-		}*/
-		return "login_success"; 
+		    return "login";// 返回指向login.jsp页面
+		}
 	}
 	
 }
